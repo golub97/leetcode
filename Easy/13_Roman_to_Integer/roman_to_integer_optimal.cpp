@@ -23,7 +23,8 @@ Given a roman numeral, convert it to an integer.
 
 class Solution {
 public:
-    int romanToInt(string s) {
+    int romanToInt(string s) 
+    {
         int sum = 0;
         map<char,int> values;
         values['I'] = 1;
