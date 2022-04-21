@@ -12,7 +12,7 @@ public:
         stack<char> s;
         char c;
         
-        for(int i = 0; i<x.length();i++)
+        for(int i = 0; i < x.length(); i++)
         {
             if(x[i] == '(' || x[i] == '{' || x[i] == '[')
             {
