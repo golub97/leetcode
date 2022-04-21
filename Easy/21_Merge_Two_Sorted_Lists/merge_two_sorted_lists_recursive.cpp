@@ -18,17 +18,13 @@ public:
   	{
 		// if list1 happen to be NULL
 		// we will simply return list2.
-		if(l1 == NULL)
-        	{
+		if(l1 == nullptr)
 			return l2;
-		}
 		
 		// if list2 happen to be NULL
 		// we will simply return list1.
-		if(l2 == NULL)
-        	{
+		if(l2 == nullptr)
 			return l1;
-		} 
 		
 		// if value pointend by l1 pointer is less than equal to value pointed by l2 pointer
 		// we wall call recursively l1 -> next and whole l2 list.
