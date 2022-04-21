@@ -8,7 +8,8 @@ Open brackets must be closed in the correct order.
 
 class Solution {
 public:
-    bool isValid(string x) {
+    bool isValid(string x) 
+    {
         stack<char> s;
         char c;
         
@@ -45,7 +46,7 @@ public:
                     break;
             }
         }
-            // Check Empty Stack
+        // Check Empty Stack
         return (s.empty());
     }
 };
